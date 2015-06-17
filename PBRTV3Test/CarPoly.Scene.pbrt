@@ -1,0 +1,28 @@
+# Main Scene File
+Film "image" "integer xresolution" [1280] "integer yresolution" [720]
+#Film "image" "integer xresolution" [200] "integer yresolution" [200]
+	#"float cropwindow" [-1.000000000000000 1.000000000000000 -0.562500000000000 0.562500000000000]
+	"string filename" "car.png"
+
+Sampler "sobol" "integer pixelsamples" [256]
+Accelerator "bvh"
+Integrator "mlt"
+
+LookAt 4.346861 -2.267145 3.111922 3.598124 -1.873355 2.578703 -0.471934 0.248193 0.845978
+
+Camera "perspective"
+	"float fov" [49.134342077604479]
+
+WorldBegin
+
+#AttributeBegin
+#Scale -1 1 1
+#Rotate 90 0 0 1
+#LightSource "infinite" "string mapname" ["doge2_latlong.exr"]
+#AttributeEnd
+
+Include "CarPoly.Mat.pbrt"
+
+Include "CarPoly.Mesh.pbrt"
+
+WorldEnd
