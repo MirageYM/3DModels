@@ -1,25 +1,30 @@
-# Main Scene File
-Film "image" "integer xresolution" [1280] "integer yresolution" [720]
-#Film "image" "integer xresolution" [200] "integer yresolution" [200]
-	#"float cropwindow" [-1.000000000000000 1.000000000000000 -0.562500000000000 0.562500000000000]
+
+# Final render setting
+Film "image" "integer xresolution" [1920] "integer yresolution" [1080]
 	"string filename" "car.png"
+Integrator "mlt" "integer mutationsperpixel" [2048]
+    "float largestepprobability" [0.06]
 
-Sampler "sobol" "integer pixelsamples" [256]
-Accelerator "bvh"
-Integrator "mlt"
+# Test render setting
+#Film "image" "integer xresolution" [1280] "integer yresolution" [720]
+#	"string filename" "car.png"
+#Integrator "mlt" "integer mutationsperpixel" [128]
+#    "float largestepprobability" [0.1]
 
-LookAt 4.346861 -2.267145 3.111922 3.598124 -1.873355 2.578703 -0.471934 0.248193 0.845978
+
+LookAt 3.071077 -1.596168 2.203379 2.327686 -1.215203 1.653620 -0.489260 0.250716 0.835324
 
 Camera "perspective"
-	"float fov" [49.134342077604479]
+	"float fov" [50.0]
 
 WorldBegin
 
-#AttributeBegin
-#Scale -1 1 1
-#Rotate 90 0 0 1
-#LightSource "infinite" "string mapname" ["doge2_latlong.exr"]
-#AttributeEnd
+# IBL
+AttributeBegin
+Scale -1 1 1
+Rotate 90 0 0 1
+LightSource "infinite" "string mapname" ["doge2_latlong.exr"]
+AttributeEnd
 
 Include "CarPoly.Mat.pbrt"
 

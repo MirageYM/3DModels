@@ -2,22 +2,18 @@
 
 MakeNamedMaterial "Material"
 	"color Kd" [0.63999999 0.63999999 0.63999999]
-	#"float sigma" [0.000000000000000]
 	"string type" ["matte"]
 
 MakeNamedMaterial "Material.001"
 	"color Kd" [0.3 0.3 0.3]
-	#"float sigma" [0.000000000000000]
 	"string type" ["matte"]
 
 MakeNamedMaterial "StopLightBK_Mat_phong_SG"
 	"color Kd" [0.63999999 0.63999999 0.63999999]
-	#"float sigma" [0.000000000000000]
 	"string type" ["matte"]
 
 MakeNamedMaterial "Interior_White_phong_SG"
 	"color Kd" [1.00000000 1.00000000 1.00000000]
-	#"float sigma" [0.000000000000000]
 	"string type" ["matte"]
 
 MakeNamedMaterial "Interior_Silver_phong_SG"
@@ -26,7 +22,6 @@ MakeNamedMaterial "Interior_Silver_phong_SG"
 
 MakeNamedMaterial "HeadLightBK_Mat_phong_SG"
 	"color Kd" [0.63999999 0.63999999 0.63999999]
-	#"float sigma" [0.000000000000000]
 	"string type" ["matte"]
 
 MakeNamedMaterial "StopLightRed_Mat_phong_SG"
@@ -50,330 +45,215 @@ MakeNamedMaterial "CarbonBlack_phong_SG"
 	"color Ks" [0.04000000 0.04000000 0.04000000]
 	"float index" [0.000000000000000]
 	"float roughness" [0.075000002980232]
-	#"float roughnessv" [0.075000002980232]
-	#"float sigma" [0.000000000000000]
 	"string type" ["uber"]
 
 MakeNamedMaterial "StopLightCover_Mat_phong_SG"
-	"bool architectural" ["false"]
-	"float cauchyb" [0.000000000000000]
-	"float film" [0.000000000000000]
-	"float filmindex" [1.333299994468689]
 	"float index" [1.519999980926514]
 	"color Kr" [0.69999993 0.00000000 0.00426707]
 	"color Kt" [1.00000000 0.00000000 0.00659970]
 	"string type" ["glass"]
 
 MakeNamedMaterial "SusArm_Silver2_phong_SG"
-	#"bool multibounce"" ["false"]
-	#"bool separable" ["true"]
 	"color Kd" [0.63999999 0.63999999 0.63999999]
 	"color Ks" [0.04000000 0.04000000 0.04000000]
 	"float index" [0.000000000000000]
 	"float roughness" [0.075000002980232]
-	#"float roughnessv" [0.075000002980232]
-	#"float sigma" [0.000000000000000]
 	"string type" ["uber"]
 
 MakeNamedMaterial "PedalsSilver_mat_SG"
-	#"bool multibounce"" ["false"]
-	#"bool separable" ["true"]
 	"color Kd" [0.64000005 0.64000005 0.64000005]
 	"color Ks" [0.10215981 0.10215981 0.10215981]
 	"float index" [0.000000000000000]
 	"float roughness" [0.286210000514984]
-	#"float roughnessv" [0.286210000514984]
-	#"float sigma" [0.000000000000000]
 	"string type" ["uber"]
 
 MakeNamedMaterial "WindowGlassMat_phong_SG"
-	"bool architectural" ["false"]
-	"float cauchyb" [0.000000000000000]
-	"float film" [0.000000000000000]
-	"float filmindex" [1.333299994468689]
-	"float index" [1.15]
-	"color Kr" [0.69999999 0.69999999 0.69999999]
-	"color Kt" [0.73565924 0.73565924 0.73565924]
+	"float index" [1.3]
+	"color Kr" [0.5 0.5 0.5]
+	"color Kt" [0.95 0.95 0.95]
 	"string type" ["glass"]
 
 MakeNamedMaterial "LightReflecMat_phong_SG"
-	"float film" [0.000000000000000]
-	"float filmindex" [1.333299994468689]
 	"color Kr" [0.71055162 0.71055162 0.71055162]
 	"string type" ["mirror"]
 
 MakeNamedMaterial "Chassis_Black_phong_SG"
-	#"bool multibounce"" ["false"]
-	#"bool separable" ["true"]
 	"color Kd" [0.02539350 0.02539350 0.02539350]
 	"color Ks" [0.04000000 0.04000000 0.04000000]
 	"float index" [0.000000000000000]
 	"float roughness" [0.075000002980232]
-	#"float roughnessv" [0.075000002980232]
-	#"float sigma" [0.000000000000000]
 	"string type" ["uber"]
 
 MakeNamedMaterial "HeadLight_LED_phong_SG"
 	"color Kd" [0.63999999 0.63999999 0.63999999]
-	#"float sigma" [0.000000000000000]
 	"string type" ["matte"]
 
 MakeNamedMaterial "WheelHubColor_phong_SG"
-	"float film" [0.000000000000000]
-	"float filmindex" [1.333299994468689]
 	"color Kr" [0.00000000 0.00000000 0.00000000]
 	"string type" ["mirror"]
 
 MakeNamedMaterial "LightSilverMat_phong_SG"
-	#"bool multibounce"" ["false"]
-	#"bool separable" ["true"]
 	"color Kd" [0.63999999 0.63999999 0.63999999]
 	"color Ks" [0.04000000 0.04000000 0.04000000]
 	"float index" [0.000000000000000]
 	"float roughness" [0.100000001490116]
-	#"float roughnessv" [0.100000001490116]
-	#"float sigma" [0.000000000000000]
 	"string type" ["uber"]
 
 MakeNamedMaterial "Suspention_Black_phong_SG"
-	#"bool multibounce"" ["false"]
-	#"bool separable" ["true"]
 	"color Kd" [0.63999999 0.63999999 0.63999999]
 	"color Ks" [0.04000000 0.04000000 0.04000000]
 	"float index" [0.000000000000000]
 	"float roughness" [0.075000002980232]
-	#"float roughnessv" [0.075000002980232]
-	#"float sigma" [0.000000000000000]
 	"string type" ["uber"]
 
 MakeNamedMaterial "Winker_Mat_phong_SG"
-	"bool architectural" ["false"]
-	"float cauchyb" [0.000000000000000]
-	"float film" [0.000000000000000]
-	"float filmindex" [1.333299994468689]
 	"float index" [1.519999980926514]
 	"color Kr" [0.69999993 0.23040804 0.05425196]
 	"color Kt" [1.00000000 0.34307599 0.04988995]
 	"string type" ["glass"]
 
 MakeNamedMaterial "BoltSilver_phong_SG"
-	#"bool multibounce"" ["false"]
-	#"bool separable" ["true"]
 	"color Kd" [0.63999999 0.63999999 0.63999999]
 	"color Ks" [0.04000000 0.04000000 0.04000000]
 	"float index" [0.000000000000000]
 	"float roughness" [0.300000011920929]
-	#"float roughnessv" [0.300000011920929]
-	#"float sigma" [0.000000000000000]
 	"string type" ["uber"]
 
 MakeNamedMaterial "EngineSilver2_phong_SG"
-	#"bool multibounce"" ["false"]
-	#"bool separable" ["true"]
 	"color Kd" [0.12612662 0.12973061 0.15232542]
 	"color Ks" [0.04000000 0.04000000 0.04000000]
 	"float index" [0.000000000000000]
 	"float roughness" [0.400000005960464]
-	#"float roughnessv" [0.400000005960464]
-	#"float sigma" [0.000000000000000]
 	"string type" ["uber"]
 
 MakeNamedMaterial "GoldMat_phong_SG"
 	"float roughness" [0.075000002980232]
-	#"float roughnessv" [0.075000002980232]
 	"string name" ["gold"]
 	"string type" ["metal"]
 
 MakeNamedMaterial "Wheel2Mat_phong_SG"
 	"float roughness" [0.075000002980232]
-	#"float roughnessv" [0.075000002980232]
 	"string name" ["aluminium"]
 	"string type" ["metal"]
 
 MakeNamedMaterial "initialShadingGroup"
-	"float film" [0.000000000000000]
-	"float filmindex" [1.333299994468689]
 	"color Kr" [0.00000000 0.00000000 0.00000000]
 	"string type" ["mirror"]
 
 MakeNamedMaterial "GlassMat_phong_SG"
-	"bool architectural" ["false"]
-	"float cauchyb" [0.000000000000000]
-	"float film" [0.000000000000000]
-	"float filmindex" [1.333299994468689]
-	"float index" [1.15]
-	"color Kr" [0.69999999 0.69999999 0.69999999]
+	"float index" [1.3]
+	"color Kr" [0.5 0.5 0.5]
 	"color Kt" [1.00000000 1.00000000 1.00000000]
 	"string type" ["glass"]
 
 MakeNamedMaterial "Seat_Black_phong_SG"
-	#"bool multibounce"" ["false"]
-	#"bool separable" ["false"]
 	"color Kd" [0.01738779 0.01738779 0.01738779]
 	"color Ks" [0.04000000 0.04000000 0.04000000]
 	"float index" [0.000000000000000]
 	"float roughness" [0.800000011920929]
-	#"float roughnessv" [0.800000011920929]
 	"string type" ["uber"]
 
 MakeNamedMaterial "BodyMat_BK_phong_SG"
-	#"bool multibounce"" ["false"]
-	#"bool separable" ["true"]
 	"color Kd" [0.00719360 0.00719360 0.00719360]
-	"float index" [1.15000000000000000]
+	"float index" [1.2000000000000000]
 	"color Ks" [1.00000000 1.00000000 1.00000000]
+	"color Kr" [0.6 0.6 0.6]
 	"float roughness" [0.000000999999997]
-	#"float roughnessv" [0.000000999999997]
-	#"float sigma" [0.000000000000000]
 	"string type" ["uber"]
 
 MakeNamedMaterial "BodyMat_phong_SG"
-	#"bool multibounce"" ["false"]
-	#"bool separable" ["true"]
-	"color Kd" [0.63999999 0.01205187 0.00000000]
-	"float index" [1.1500000000000000]
+	"color Kd" [0.73999999 0.02205187 0.00000000]
+	"float index" [1.200000000000000]
 	"color Ks" [1.00000000 1.00000000 1.00000000]
+	"color Kr" [0.6 0.55 0.5]
 	"float roughness" [0.000000]
-	#"float roughnessv" [0.000000999999997]
-	#"float sigma" [0.000000000000000]
 	"string type" ["uber"]
 
 MakeNamedMaterial "Interior_Black_phong_SG"
-	#"bool multibounce"" ["false"]
-	#"bool separable" ["true"]
 	"color Kd" [0.01738776 0.01738776 0.01738776]
 	"color Ks" [0.04000000 0.04000000 0.04000000]
 	"float index" [0.000000000000000]
 	"float roughness" [0.075000002980232]
-	#"float roughnessv" [0.075000002980232]
-	#"float sigma" [0.000000000000000]
 	"string type" ["uber"]
 
 MakeNamedMaterial "Interior_Red_phong_SG"
 	"color Kd" [0.63999999 0.00741982 0.00000000]
-	#"float sigma" [0.000000000000000]
 	"string type" ["matte"]
 
 MakeNamedMaterial "HeadlightLens_phong_SG"
-	"bool architectural" ["false"]
-	"float cauchyb" [0.000000000000000]
-	"float film" [0.000000000000000]
-	"float filmindex" [1.333299994468689]
 	"float index" [1.519999980926514]
 	"color Kr" [0.69999999 0.69999999 0.69999999]
 	"color Kt" [1.00000000 1.00000000 1.00000000]
 	"string type" ["glass"]
 
 MakeNamedMaterial "GomBlack_phong_SG"
-	#"bool multibounce"" ["false"]
-	#"bool separable" ["true"]
 	"color Kd" [0.01221697 0.01221697 0.01221697]
 	"color Ks" [0.00807589 0.00807589 0.00807589]
 	"float index" [0.000000000000000]
 	"float roughness" [0.699999988079071]
-	#"float roughnessv" [0.699999988079071]
-	#"float sigma" [0.000000000000000]
 	"string type" ["uber"]
 
 MakeNamedMaterial "Suspention_Red_phong_SG"
-	#"bool multibounce"" ["false"]
-	#"bool separable" ["true"]
 	"color Kd" [0.63999999 0.02005001 0.01552664]
 	"color Ks" [0.04000000 0.04000000 0.04000000]
 	"float index" [0.000000000000000]
 	"float roughness" [0.075000002980232]
-	#"float roughnessv" [0.075000002980232]
-	#"float sigma" [0.000000000000000]
 	"string type" ["uber"]
 
 MakeNamedMaterial "CamCover_phong_SG"
-	#"bool multibounce"" ["false"]
-	#"bool separable" ["true"]
 	"color Kd" [0.63999999 0.04099033 0.02220741]
 	"color Ks" [0.04000000 0.04000000 0.04000000]
 	"float index" [0.000000000000000]
 	"float roughness" [0.075000002980232]
-	#"float roughnessv" [0.075000002980232]
-	#"float sigma" [0.000000000000000]
 	"string type" ["uber"]
 
 MakeNamedMaterial "Interior_GlossBlack_phong_SG"
-	#"bool multibounce"" ["false"]
-	#"bool separable" ["true"]
 	"color Kd" [0.63999999 0.63999999 0.63999999]
 	"color Ks" [0.04000000 0.04000000 0.04000000]
 	"float index" [0.000000000000000]
 	"float roughness" [0.075000002980232]
-	#"float roughnessv" [0.075000002980232]
-	#"float sigma" [0.000000000000000]
 	"string type" ["uber"]
 
 MakeNamedMaterial "suspension_silver_phong_SG"
-	#"bool multibounce"" ["false"]
-	#"bool separable" ["true"]
 	"color Kd" [0.09462606 0.09462606 0.09462606]
 	"color Ks" [0.04000000 0.04000000 0.04000000]
 	"float index" [0.000000000000000]
 	"float roughness" [0.300000011920929]
-	#"float roughnessv" [0.300000011920929]
-	#"float sigma" [0.000000000000000]
 	"string type" ["uber"]
 
 MakeNamedMaterial "TireMat_phong_SG"
-	#"bool multibounce"" ["false"]
-	#"bool separable" ["true"]
 	"color Kd" [0.01738776 0.01738776 0.01738776]
 	"color Ks" [0.01002185 0.01002185 0.01002185]
 	"float index" [0.000000000000000]
 	"float roughness" [0.800000011920929]
-	#"float roughnessv" [0.800000011920929]
-	#"float sigma" [0.000000000000000]
 	"string type" ["uber"]
 
 MakeNamedMaterial "BodyGlossBlackMat_phong_SG"
-	#"bool multibounce"" ["false"]
-	#"bool separable" ["true"]
 	"color Kd" [0.02037904 0.02037904 0.02037904]
 	"color Ks" [0.04000000 0.04000000 0.04000000]
 	"float index" [0.000000000000000]
 	"float roughness" [0.075000002980232]
-	#"float roughnessv" [0.075000002980232]
-	#"float sigma" [0.000000000000000]
 	"string type" ["uber"]
 
 MakeNamedMaterial "Interior_Monitor_phong_SG"
-	"float film" [0.000000000000000]
-	"float filmindex" [1.333299994468689]
 	"color Kr" [0.00000000 0.00000000 0.00000000]
 	"string type" ["mirror"]
 
 MakeNamedMaterial "BrakeRotarSilver_phong_SG"
-	#"bool multibounce"" ["false"]
-	#"bool separable" ["true"]
 	"color Kd" [0.20190138 0.20190138 0.20190138]
 	"color Ks" [0.04000000 0.04000000 0.04000000]
 	"float index" [0.000000000000000]
 	"float roughness" [0.200000002980232]
-	#"float roughnessv" [0.200000002980232]
-	#"float sigma" [0.000000000000000]
 	"string type" ["uber"]
 
 MakeNamedMaterial "SeatColor_phong_SG"
-	#"bool multibounce"" ["false"]
-	#"bool separable" ["true"]
 	"color Kd" [0.06071978 0.05134248 0.02322084]
 	"color Ks" [0.03999998 0.03156386 0.02331401]
 	"float index" [0.000000000000000]
 	"float roughness" [0.500000000000000]
-	#"float roughnessv" [0.500000000000000]
-	#"float sigma" [0.000000000000000]
 	"string type" ["uber"]
 
 MakeNamedMaterial "WinkerCover_Mat_phong_SG"
-	"bool architectural" ["false"]
-	"float cauchyb" [0.000000000000000]
-	"float film" [0.000000000000000]
-	"float filmindex" [1.333299994468689]
 	"float index" [1.519999980926514]
 	"color Kr" [0.69999993 0.31955475 0.02719486]
 	"color Kt" [1.00000000 0.42318529 0.02263672]
@@ -381,27 +261,18 @@ MakeNamedMaterial "WinkerCover_Mat_phong_SG"
 
 MakeNamedMaterial "Interior_LineColor_phong_SG"
 	"color Kd" [0.63999999 0.63999999 0.63999999]
-	#"float sigma" [0.000000000000000]
 	"string type" ["matte"]
 
 MakeNamedMaterial "Interior_GomBlackq_phong_SG"
-	#"bool multibounce"" ["false"]
-	#"bool separable" ["true"]
 	"color Kd" [0.05780274 0.05780274 0.05780274]
 	"color Ks" [0.04000000 0.04000000 0.04000000]
 	"float index" [0.000000000000000]
 	"float roughness" [0.800000011920929]
-	#"float roughnessv" [0.800000011920929]
-	#"float sigma" [0.000000000000000]
 	"string type" ["uber"]
 
 MakeNamedMaterial "MeshBlack_phong_SG"
-	#"bool multibounce"" ["false"]
-	#"bool separable" ["true"]
 	"color Kd" [0.03967975 0.03967975 0.03967975]
 	"color Ks" [0.04000000 0.04000000 0.04000000]
 	"float index" [0.000000000000000]
 	"float roughness" [0.800000011920929]
-	#"float roughnessv" [0.800000011920929]
-	#"float sigma" [0.000000000000000]
 	"string type" ["uber"]
