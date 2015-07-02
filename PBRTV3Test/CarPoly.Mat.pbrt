@@ -25,16 +25,23 @@ MakeNamedMaterial "HeadLightBK_Mat_phong_SG"
 	"string type" ["matte"]
 
 MakeNamedMaterial "StopLightRed_Mat_phong_SG"
-	"color Kr" [0.00000000 0.00000000 0.00000000]
-	"string type" ["mirror"]
+	"color Kd" [0.83999999 0.02005001 0.01552664]
+	"color Ks" [0.04000000 0.04000000 0.04000000]
+	"float index" [0.000000000000000]
+	"float roughness" [0.0000075000002980232]
+	"string type" ["uber"]
 
 MakeNamedMaterial "Exhaust_Silver_phong_SG"
-	"string name" ["aluminium"]
+	#"string name" ["aluminium"]
 	"string type" ["metal"]
 
 MakeNamedMaterial "LightReflectInner_phong_SG"
-	"string name" ["silver"]
-	"string type" ["metal"]
+	"color Kd" [0.1 0.1 0.1]
+	"color Kr" [0.8 0.8 0.8]
+	"color Ks" [0.9000000 0.9000000 0.9000000]
+	"float index" [3.000000000000000]
+	"float roughness" [0.000001]
+	"string type" ["uber"]
 
 MakeNamedMaterial "MirrorMat_phong_SG"
 	"color Kr" [0.73565960 0.73565960 0.73565960]
@@ -74,8 +81,12 @@ MakeNamedMaterial "WindowGlassMat_phong_SG"
 	"string type" ["glass"]
 
 MakeNamedMaterial "LightReflecMat_phong_SG"
-	"color Kr" [0.71055162 0.71055162 0.71055162]
-	"string type" ["mirror"]
+	"color Kd" [0.1 0.1 0.1]
+	"color Kr" [0.98 0.98 0.98]
+	"color Ks" [0.95 0.95 0.95]
+	"float index" [4.000000000000000]
+	"float roughness" [0.000001]
+	"string type" ["uber"]
 
 MakeNamedMaterial "Chassis_Black_phong_SG"
 	"color Kd" [0.02539350 0.02539350 0.02539350]
@@ -89,8 +100,12 @@ MakeNamedMaterial "HeadLight_LED_phong_SG"
 	"string type" ["matte"]
 
 MakeNamedMaterial "WheelHubColor_phong_SG"
-	"color Kr" [0.00000000 0.00000000 0.00000000]
-	"string type" ["mirror"]
+	"color Kd" [0.63999999 0.02005001 0.01552664]
+	"color Ks" [0.04000000 0.04000000 0.04000000]
+	"float index" [0.000000000000000]
+	"float roughness" [0.075000002980232]
+	"string type" ["uber"]
+
 
 MakeNamedMaterial "LightSilverMat_phong_SG"
 	"color Kd" [0.63999999 0.63999999 0.63999999]
@@ -128,21 +143,24 @@ MakeNamedMaterial "EngineSilver2_phong_SG"
 
 MakeNamedMaterial "GoldMat_phong_SG"
 	"float roughness" [0.075000002980232]
-	"string name" ["gold"]
+	#"string name" ["gold"]
 	"string type" ["metal"]
 
 MakeNamedMaterial "Wheel2Mat_phong_SG"
 	"float roughness" [0.075000002980232]
-	"string name" ["aluminium"]
+	#"string name" ["aluminium"]
 	"string type" ["metal"]
 
 MakeNamedMaterial "initialShadingGroup"
-	"color Kr" [0.00000000 0.00000000 0.00000000]
-	"string type" ["mirror"]
+	"color Kd" [0.63999999 0.02005001 0.01552664]
+	"color Ks" [0.04000000 0.04000000 0.04000000]
+	"float index" [0.000000000000000]
+	"float roughness" [0.075000002980232]
+	"string type" ["uber"]
 
 MakeNamedMaterial "GlassMat_phong_SG"
 	"float index" [1.3]
-	"color Kr" [0.5 0.5 0.5]
+	"color Kr" [0.3 0.3 0.3]
 	"color Kt" [1.00000000 1.00000000 1.00000000]
 	"string type" ["glass"]
 
@@ -209,8 +227,8 @@ MakeNamedMaterial "CamCover_phong_SG"
 
 MakeNamedMaterial "Interior_GlossBlack_phong_SG"
 	"color Kd" [0.63999999 0.63999999 0.63999999]
-	"color Ks" [0.04000000 0.04000000 0.04000000]
-	"float index" [0.000000000000000]
+	"color Ks" [0.4000000 0.4000000 0.4000000]
+	"float index" [1.2000000000000000]
 	"float roughness" [0.075000002980232]
 	"string type" ["uber"]
 
@@ -222,17 +240,19 @@ MakeNamedMaterial "suspension_silver_phong_SG"
 	"string type" ["uber"]
 
 MakeNamedMaterial "TireMat_phong_SG"
-	"color Kd" [0.01738776 0.01738776 0.01738776]
-	"color Ks" [0.01002185 0.01002185 0.01002185]
-	"float index" [0.000000000000000]
-	"float roughness" [0.800000011920929]
+	"color Kd" [0.03 0.03 0.032]
+	"color Ks" [0.05 0.05 0.05]
+	"color Kr" [0.0 0.0 0.0]
+	"float index" [1.3]
+	"float roughness" [5.800000011920929]
 	"string type" ["uber"]
 
 MakeNamedMaterial "BodyGlossBlackMat_phong_SG"
-	"color Kd" [0.02037904 0.02037904 0.02037904]
-	"color Ks" [0.04000000 0.04000000 0.04000000]
-	"float index" [0.000000000000000]
-	"float roughness" [0.075000002980232]
+	"color Kd" [0.00719360 0.00719360 0.00719360]
+	"float index" [1.2000000000000000]
+	"color Ks" [1.00000000 1.00000000 1.00000000]
+	"color Kr" [0.2 0.2 0.2]
+	"float roughness" [0.000000999999997]
 	"string type" ["uber"]
 
 MakeNamedMaterial "Interior_Monitor_phong_SG"
@@ -247,7 +267,7 @@ MakeNamedMaterial "BrakeRotarSilver_phong_SG"
 	"string type" ["uber"]
 
 MakeNamedMaterial "SeatColor_phong_SG"
-	"color Kd" [0.06071978 0.05134248 0.02322084]
+	"color Kd" [0.6071978 0.5134248 0.2322084]
 	"color Ks" [0.03999998 0.03156386 0.02331401]
 	"float index" [0.000000000000000]
 	"float roughness" [0.500000000000000]
@@ -264,7 +284,7 @@ MakeNamedMaterial "Interior_LineColor_phong_SG"
 	"string type" ["matte"]
 
 MakeNamedMaterial "Interior_GomBlackq_phong_SG"
-	"color Kd" [0.05780274 0.05780274 0.05780274]
+	"color Kd" [0.2 0.2 0.2 ]
 	"color Ks" [0.04000000 0.04000000 0.04000000]
 	"float index" [0.000000000000000]
 	"float roughness" [0.800000011920929]

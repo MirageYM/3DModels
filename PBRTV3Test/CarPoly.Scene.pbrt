@@ -1,21 +1,39 @@
 
-# Final render setting
+## FullHD
 Film "image" "integer xresolution" [1920] "integer yresolution" [1080]
 	"string filename" "car.png"
-Integrator "mlt" "integer mutationsperpixel" [2048]
-    "float largestepprobability" [0.06]
-
-# Test render setting
+## 720p
 #Film "image" "integer xresolution" [1280] "integer yresolution" [720]
-#	"string filename" "car.png"
-#Integrator "mlt" "integer mutationsperpixel" [128]
-#    "float largestepprobability" [0.1]
+#	"string filename" "car2.png"
 
+## High
+Integrator "mlt"
+	"integer mutationsperpixel" [2048]
+	"float largestepprobability" [0.06]
+	"integer maxdepth" [6]
+	"integer bootstrapsamples" [1000000]
 
-LookAt 3.071077 -1.596168 2.203379 2.327686 -1.215203 1.653620 -0.489260 0.250716 0.835324
+## Mid
+#Integrator "mlt"
+#	"integer mutationsperpixel" [512]
+#	"float largestepprobability" [0.15]
+#	"integer maxdepth" [6]
+#	"integer bootstrapsamples" [1000000]
+
+## Low
+#Integrator "mlt"
+#	"integer mutationsperpixel" [64]
+#	"float largestepprobability" [0.3]
+#	"integer maxdepth" [5]
+#	"integer bootstrapsamples" [100000]
+#	"float sigma" [0.01]
+#	"integer chains" [1000]
+	
+
+LookAt 5.733494 -2.960355 0.910164 4.846804 -2.506242 0.823198 -0.077418 0.039618 0.996211
 
 Camera "perspective"
-	"float fov" [50.0]
+	"float fov" [26.0]
 
 WorldBegin
 
